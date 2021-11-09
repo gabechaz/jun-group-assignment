@@ -1,0 +1,49 @@
+* {
+    text-align: center;
+}
+
+
+div {
+    background-color: black;
+    color: white
+}
+
+div#logo-wrapper {
+    width: 25vw;
+    height: 25vh;
+    position: relative;
+    
+}
+
+#pyramid-logo {
+
+
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    width: 25vw;
+    height: 25vh;
+    display: center;
+}
+
+html {
+    background-image: url('image-files/taco-bell-party.jpeg');
+    /* background-size: cover; */
+}
+
+
+
+#call-to-action {
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    left: 25vw;
+    width: 60vw;
+
+}
+
+#social-box {
+    border-style: solid;
+    border-color: black;
+}
+
