@@ -1,4 +1,12 @@
+
+@font-face {
+font-family: 'tacobell-font';
+src: url('taco-bell-font.ttf')
+}
+
+
 * {
+    font-family: 'tacobell-font';
     text-align: center;
 }
 
@@ -18,10 +26,13 @@
 }
 
 #copy {
-    width: 40vw;
+    width: 60vw;
+    height: 60vh;
     position: relative;
-    left: 40vw;
+    left: 20vw;
     background-color: darkblue;
+    color: yellow;
+    font-size: 200%;
 }
 
 
