@@ -74,12 +74,12 @@ src: url('taco-bell-font.ttf')
     display:flex;
     align-items: center;
     width: 60vw;
-    height: 60vh;
+    height: 50vh;
     position: relative;
     left: 20vw;
     background-color: darkblue;
     color: rgb(216, 216, 9);
-    font-size: 2.5vh;
+    font-size: 2vmax;
     margin-bottom: 5vh;
     border-radius: 10%;
 }
