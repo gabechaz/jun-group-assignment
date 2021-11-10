@@ -23,7 +23,8 @@ src: url('taco-bell-font.ttf')
 
 #nachos-image {
     position:absolute;
-    bottom: 35vh;
+    bottom: 58vh;
+    right: 30vw;
 }
 
 #burrito-image {
@@ -35,11 +36,12 @@ src: url('taco-bell-font.ttf')
 
 #stacker-image {
     position:absolute;
-    right: 40vw;
+    left: 6vw;
+    top: 11vh;
 }
 
 .hidden-image {
-    /* visibility: hidden; */
+    visibility: hidden;
     height: 10vh;
     width: 10vw;
 }
@@ -58,8 +60,9 @@ src: url('taco-bell-font.ttf')
     position: relative;
     left: 20vw;
     background-color: darkblue;
-    color: yellow;
+    color: rgb(216, 216, 9);
     font-size: 175%;
+    margin-bottom: 5vh;
     border-radius: 10%;
 }
 
@@ -72,19 +75,19 @@ div {
 
 div#logo-wrapper {
     width: 10vw;
-    height: 20vh;
+    height: 10vh;
     position: relative;
+    margin: 0px;
     
 }
 
 img#pyramid-logo {
 
-
     height: 100%;
     width: 100%;
     object-fit: contain;
-    width: 10vw;
-    height: 20vh;
+    width: 20vw;
+    height: 30vh;
     display: center;
 }
 

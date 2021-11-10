@@ -22,6 +22,10 @@ function becomeVisible(e) {
     e.target.firstChild.style = 'visibility: visible'
 }
 
+function clickInvisible(e) {
+    e.target.firstChild.style = 'visibility: visible'
+}
+
 function becomeInvisible(e) {
     e.target.firstChild.style = 'visibility: invisible'
 }
