@@ -3,32 +3,57 @@
 }
 
 
+
+
+
+.hidden-image {
+    /* visibility: hidden; */
+    height: 10vh;
+    width: 10vw;
+}
+
+.hidden-image-wrapper {
+    width: 75vw;
+    height: 25vh;
+}
+
+#copy {
+    width: 40vw;
+    position: relative;
+    left: 40vw;
+    background-color: darkblue;
+}
+
+
+
 div {
     background-color: black;
     color: white
 }
 
 div#logo-wrapper {
-    width: 25vw;
-    height: 25vh;
+    width: 10vw;
+    height: 20vh;
     position: relative;
     
 }
 
-#pyramid-logo {
+img#pyramid-logo {
 
 
     height: 100%;
     width: 100%;
     object-fit: contain;
-    width: 25vw;
-    height: 25vh;
+    width: 10vw;
+    height: 20vh;
     display: center;
 }
 
 html {
-    background-image: url('image-files/taco-bell-party.jpeg');
+    /* background-image: url('image-files/taco-bell-party.jpeg');
+     */
     /* background-size: cover; */
+    background-color: black;
 }
 
 
