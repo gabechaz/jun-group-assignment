@@ -10,10 +10,28 @@ src: url('taco-bell-font.ttf')
     text-align: center;
 }
 
-.social-logo {
-    height: 5vh;
-    width: 5vw;
+
+#live-mas-right {
+    background-image: url('image-files/live-mas.png');
+    position: absolute;
+    background-size: contain;
+    right: 5vw;
+    z-index:0;
+    height: 80vh;
+    width: 10vw;
 }
+
+#live-mas-left {
+    background-image: url('image-files/live-mas.png');
+    position: absolute;
+    background-size: contain;
+    left: 5vw;
+    z-index:-1;
+    height: 80vh;
+    width: 10vw;
+}
+
+
 
 #taco-image{
     position:absolute;
@@ -24,7 +42,7 @@ src: url('taco-bell-font.ttf')
 #nachos-image {
     position:absolute;
     bottom: 58vh;
-    right: 30vw;
+    right: 60vw;
 }
 
 #burrito-image {
@@ -84,7 +102,7 @@ div#logo-wrapper {
 img#pyramid-logo {
 
     height: 100%;
-    width: 100%;
+    width: 25%;
     object-fit: contain;
     width: 20vw;
     height: 30vh;
@@ -100,17 +118,21 @@ html {
 
 
 
-#call-to-action {
-    border-color: black;
-    border-style: solid;
+#call-to-action {  
+    color: purple;
     position: relative;
     left: 25vw;
-    width: 60vw;
+    width: 50vw;
 
 }
 
 #social-box {
     border-style: solid;
     border-color: black;
+}
+
+.social-logo {
+    height: 12vh;
+    width: 12vw;
 }
 

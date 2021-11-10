@@ -1,10 +1,5 @@
 
-let imagesClicked = {
-    tacoClicked: false,
-    burritoClicked: false,
-    stackerClicked: false,
-    nachosClicked: false
-}
+
 
 const hiddenImageWrappers = document.querySelectorAll('.hidden-image-wrapper')
 const hiddenImages = document.querySelectorAll('.hidden-image')
@@ -20,7 +15,12 @@ hiddenImageWrappers.forEach(image => {
 
 function becomeVisible(e) {
     e.target.firstChild.style = 'visibility: visible'
-}
+    }
+
+    function clickLink() {
+
+    }
+
 
 function clickInvisible(e) {
     e.target.firstChild.style = 'visibility: visible'
