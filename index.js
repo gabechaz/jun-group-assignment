@@ -13,13 +13,14 @@ hiddenImageWrappers.forEach(image => {
 
 function becomeVisible(e) {
     e.target.firstChild.style = 'visibility: visible'
+    console.log(e.target.firstChild)
     }
 
 
 
 
 function becomeInvisible(e) {
-    e.target.firstChild.style = 'visibility: invisible'ū 
+    e.target.firstChild.style = 'visibility: invisible'
 }
 
 
