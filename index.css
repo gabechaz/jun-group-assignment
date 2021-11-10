@@ -10,9 +10,33 @@ src: url('taco-bell-font.ttf')
     text-align: center;
 }
 
+.social-logo {
+    height: 5vh;
+    width: 5vw;
+}
 
+#taco-image{
+    position:absolute;
+    bottom: 35vh;
+    right: 45vw;
+}
 
+#nachos-image {
+    position:absolute;
+    bottom: 35vh;
+}
 
+#burrito-image {
+    position:absolute;
+    right: 20vw;
+    bottom: 30vw;
+
+}
+
+#stacker-image {
+    position:absolute;
+    right: 40vw;
+}
 
 .hidden-image {
     /* visibility: hidden; */
@@ -21,18 +45,22 @@ src: url('taco-bell-font.ttf')
 }
 
 .hidden-image-wrapper {
-    width: 75vw;
-    height: 25vh;
+    width: 10vw;
+    height: 10vh;
 }
 
 #copy {
+    padding: 3vh;
+    display:flex;
+    align-items: center;
     width: 60vw;
     height: 60vh;
     position: relative;
     left: 20vw;
     background-color: darkblue;
     color: yellow;
-    font-size: 200%;
+    font-size: 175%;
+    border-radius: 10%;
 }
 
 

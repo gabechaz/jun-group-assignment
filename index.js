@@ -1,7 +1,19 @@
 
-const hiddenImages = document.querySelectorAll('.hidden-image-wrapper')
+let imagesClicked = {
+    tacoClicked: false,
+    burritoClicked: false,
+    stackerClicked: false,
+    nachosClicked: false
+}
+
+const hiddenImageWrappers = document.querySelectorAll('.hidden-image-wrapper')
+const hiddenImages = document.querySelectorAll('.hidden-image')
 
 hiddenImages.forEach(image => {
+    image.addEventListener('click', addImageClick)
+})
+
+hiddenImageWrappers.forEach(image => {
     image.addEventListener('mouseover', becomeVisible)
     image.addEventListener('mouseleave', becomeInvisible)
 })
@@ -14,6 +26,12 @@ function becomeInvisible(e) {
     e.target.firstChild.style = 'visibility: invisible'
 }
 
+function addImageClick(e) {
+if (e.target.id = 'taco-image') {
+    imagesClicked.tacoClicked = true
+    console.log(imagesClicked.tacoClicked)
+}
+}
 
 
 
